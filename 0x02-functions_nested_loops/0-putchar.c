@@ -3,9 +3,10 @@
  * main - putchar
  * Return: Always 0 (success)
  */
+int _putchar(void);
 int main(void)
 {
-	_putchar(0);
+	putchar(_putchar);
 	putchar('\n');
 	return (0);
 }
