@@ -4,7 +4,7 @@
  * Description: checks for lower character
  * Return: 0 (success)
  */
-int _islower(void)
+int _islower(int c)
 {
 	char ch;
 
