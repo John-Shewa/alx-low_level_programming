@@ -2,20 +2,17 @@
 /**
  * _islower - check Description
  * Description: checks for lower character
- * Return: 0 (success)
+ * Return: 1 if it is lowercase or 0 if it is uppercase
  */
 int _islower(int c)
 {
 	char ch;
+	int lowercase = 0;
 
-	if (ch >= 'A' && ch <= 'Z')
+	for (ch = 'a' ; ch <= 'z' ; ch++)
 	{
-	_putchar('0');
+		if (ch == c)
+			lowercase = 1;
 	}
-	else if (ch >= 'a' && ch <= 'z')
-	{
-	_putchar('1');
-	_putchar('\n');
-	}
-	return (0);
+	return (lowercase);
 }
