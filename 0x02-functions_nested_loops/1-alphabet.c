@@ -1,16 +1,13 @@
 #include "main.h"
 /**
- * main - putchar
- * Return: Always 0 (success)
+ * print_alphabet - Prints lowercase alphabets and end with a new line
+ * Return: Nothing
  */
-int main(void)
+void print_alphabet(void)
 {
 	char ch;
 
-	for (ch = 'a' ; ch < 'z' ; ch++)
-	{
-	_putchar(c[ch]);
-	}
+	for (ch = 'a' ; ch <= 'z' ; ch++)
+	_putchar (ch);
 	_putchar('\n');
-	return (0);
 }
