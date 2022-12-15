@@ -6,12 +6,12 @@
  */
 int _isdigit(int c);
 {
-	char digit = '0';
+	char i = '0';
 	int isdigit = 0;
 
-	for (; digit <= '9' ; digit++)
+	for (; i <= '9' ; i++)
 	{
-		if (digit == c)
+		if (i == c)
 		{
 			isdigit = 1;
 			break;
