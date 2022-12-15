@@ -7,17 +7,16 @@
 
 int _isupper(int c);
 {
-	char letter;
-	int isupper;
+	char letter = 'A';
+	int isupper = 0;
+
+	for (letter = 'A'; letter <= 'Z'; letter++)
 	{
-		for (letter = 'A'; letter <= 'Z'; letter++)
+		if (c == letter)
 		{
-			if (c == letter)
-			{
-				isupper = 1;
-				break'
-			}
+			isupper = 1;
+			break;
 		}
+		return (isupper);
 	}
-	return (isupper);
 }
