@@ -2,13 +2,13 @@
 #include "main.h"
 /**
  * main - entry point
- * Return: 0 (success)
+ * Return: Always 0
  */
 int main(void)
 {
 	int i = 1;
 
-	for (; i < 100; i++)
+	for (; i <= 100; i++)
 	{
 		if (i % 3 == 0)
 			printf("Fizz ");
@@ -19,7 +19,8 @@ int main(void)
 		else
 			printf("%d ", i);
 	}
-	printf("Buzz\n");
+	printf("\n");
+
 	return (0);
 }
 
