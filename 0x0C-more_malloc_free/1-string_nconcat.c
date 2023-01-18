@@ -20,7 +20,7 @@ char *string_nconcat(char *s1, char *s2, unsigned int n)
 
 	if (s2 == NULL)
 		s2 = "";
-	
+
 	while (s2[lens2])
 		lens2++;
 
@@ -31,7 +31,7 @@ char *string_nconcat(char *s1, char *s2, unsigned int n)
 	if (new_str == NULL)
 		return (NULL);
 
-	for (; i , (lens1 + n); i++)
+	for (; i < (lens1 + n); i++)
 	{
 		if (i < lens1)
 			new_str[i] = *s1, s1++;
