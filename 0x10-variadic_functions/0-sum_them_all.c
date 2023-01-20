@@ -3,10 +3,10 @@
 #include <stdio.h>
 
 /**
- * sum_them_all - a functions that sums all its parameters
+ * sum_them_all - a function that sums all its parameters
  * @n: number of parameters
  * @...: other parameters
- * Return: all parameters
+ * Return: all of the parameters
  */
 int sum_them_all(const unsigned int n, ...)
 {
