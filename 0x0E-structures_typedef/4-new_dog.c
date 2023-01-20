@@ -1,5 +1,6 @@
 #include "dog.h"
 #include <stdlib.h>
+
 /**
  * new_dog - creates a new dog structure
  * @name: dog's name
@@ -15,6 +16,7 @@ dog_t *new_dog(char *name, float age, char *owner)
 
 	if (name == NULL || owner == NULL)
 		return (NULL);
+
 	while (name[len_name])
 		len_name++;
 	while (owner[len_owner])
