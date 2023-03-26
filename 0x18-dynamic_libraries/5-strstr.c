@@ -6,7 +6,7 @@
  * Return: pointer in the beginning of the substring
  * or NULL if not found
  */
-char *_strtstr(char *haystack, char *needle)
+char *_strstr(char *haystack, char *needle)
 {
 	int i, j;
 
